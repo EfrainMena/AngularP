@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Angular';
   mensaje = 'Curso de angular';
+  nombre = 'Variable';
+
+  getNombre(){
+    return this.nombre;
+  }
 }
